@@ -178,7 +178,12 @@ export const footerLinks : {
   },
 ];
 
-export const socialMedia = [
+export const socialMedia : {
+  'id' : stringType,
+  'icon' : stringType | undefined,
+  'link' : stringType
+
+}[] = [
   {
     id: "social-media-1",
     icon: assets.find(asset =>asset.includes('instagram')),
@@ -201,7 +206,10 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const clients : {
+  'id' : stringType,
+  'logo' : stringType | undefined
+}[] = [
   {
     id: "client-1",
     logo: assets.find(asset =>asset.includes('airbnb')),
