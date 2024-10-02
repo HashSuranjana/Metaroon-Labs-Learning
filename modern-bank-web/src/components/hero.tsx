@@ -20,7 +20,7 @@ function Hero() {
               <span className="text-gradient">Generation</span>{" "}
             </h1>
             <div className="ss:flex hidden md:mr-4 mr-0">
-              <GetStarted />
+              {/* <GetStarted /> */}
             </div>
           </div>
   
@@ -44,7 +44,7 @@ function Hero() {
         </div>
   
         <div className={`ss:hidden ${styles.flexCenter}`}>
-          <GetStarted />
+          {/* <GetStarted /> */}
         </div>
       </section>
     );
