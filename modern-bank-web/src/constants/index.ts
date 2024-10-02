@@ -36,21 +36,21 @@ export const navLinks : navLinkObj[] = [
 export const features : featureObj[] = [
   {
     id: "feature-1",
-    icon: assets.find(asset =>asset.includes('star')),
+    icon: assets.star,
     title: "Rewards",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
-    icon: assets.find(asset =>asset.includes('shield')),
+    icon: assets.shield,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
-    icon: assets.find(asset =>asset.includes('send')),
+    icon: assets.send,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
@@ -64,7 +64,7 @@ export const feedback = [
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: assets.find(asset =>asset.includes('people01')),
+    img: assets.people01,
   },
   {
     id: "feedback-2",
@@ -72,7 +72,7 @@ export const feedback = [
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: assets.find(asset =>asset.includes('people02')),
+    img: assets.people02,
   },
   {
     id: "feedback-3",
@@ -80,7 +80,7 @@ export const feedback = [
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: assets.find(asset =>asset.includes('people03')),
+    img: assets.people03,
   },
 ];
 
@@ -186,22 +186,22 @@ export const socialMedia : {
 }[] = [
   {
     id: "social-media-1",
-    icon: assets.find(asset =>asset.includes('instagram')),
+    icon: assets.instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: assets.find(asset =>asset.includes('facebook')),
+    icon: assets.facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: assets.find(asset =>asset.includes('twitter')),
+    icon: assets.twitter,
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: assets.find(asset =>asset.includes('likedin')),
+    icon: assets.linkedin,
     link: "https://www.linkedin.com/",
   },
 ];
@@ -212,18 +212,18 @@ export const clients : {
 }[] = [
   {
     id: "client-1",
-    logo: assets.find(asset =>asset.includes('airbnb')),
+    logo: assets.airbnb,
   },
   {
     id: "client-2",
-    logo: assets.find(asset =>asset.includes('binance')),
+    logo: assets.binance,
   },
   {
     id: "client-3",
-    logo: assets.find(asset =>asset.includes('star')),
+    logo: assets.star,
   },
   {
     id: "client-4",
-    logo: assets.find(asset =>asset.includes('dropbox')),
+    logo: assets.dropbox,
   },
 ];
