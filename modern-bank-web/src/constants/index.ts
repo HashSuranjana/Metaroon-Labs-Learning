@@ -57,7 +57,15 @@ export const features :Feature[] = [
   },
 ];
 
-export const feedback = [
+export interface Feedbacktype  {
+  "id":stringType
+  'content' : stringType
+  'name' :stringType
+  'title' : stringType
+  'img' : stringType
+}
+
+export const feedback : Feedbacktype[] = [
   {
     id: "feedback-1",
     content:
@@ -220,7 +228,7 @@ export const clients : {
   },
   {
     id: "client-3",
-    logo: assets.star,
+    logo: assets.coinbase,
   },
   {
     id: "client-4",
