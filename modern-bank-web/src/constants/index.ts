@@ -7,13 +7,6 @@ type navLinkObj = {
   'title' : stringType
 }
 
-type featureObj = {
-  'id': stringType, 
-  'icon': stringType | undefined, 
-  'title': stringType, 
-  'content' : stringType
-}
-
 export const navLinks : navLinkObj[] = [
   {
     id: "home",
@@ -33,23 +26,30 @@ export const navLinks : navLinkObj[] = [
   },
 ];
 
-export const features : featureObj[] = [
+export interface Feature {
+  id: number;       
+  icon: stringType | undefined;     
+  title: stringType;    
+  content: stringType;
+}
+
+export const features :Feature[] = [
   {
-    id: "feature-1",
+    id: 0,
     icon: assets.star,
     title: "Rewards",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
-    id: "feature-2",
+    id: 1,
     icon: assets.shield,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: "feature-3",
+    id: 2,
     icon: assets.send,
     title: "Balance Transfer",
     content:
