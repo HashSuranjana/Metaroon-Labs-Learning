@@ -1,5 +1,4 @@
-import React from "react"
-import {Navbar,Hero,Billing,Business,CardDeal,Client,Cta,GetStarted,Stats,Testomonial,Footer} from './components'
+import {Navbar,Hero,Billing,Business,CardDeal,Client,Cta,Stats,Testomonial,Footer} from './components'
 import styles from './style'
 import './index.css'
 
